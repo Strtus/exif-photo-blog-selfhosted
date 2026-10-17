@@ -11,9 +11,30 @@
 :global(.dark) .description {
   color: var(--color-gray-300, #d1d5db);
 }
-.description a {
-  text-decoration: underline;
-  text-underline-offset: 0.2em;
+.divider {
+  margin-block: 1.75rem;
+  border: 0;
+  border-top: 1px solid var(--color-gray-200, #e5e7eb);
+}
+:global(.dark) .divider {
+  border-color: var(--color-gray-800, #1f2937);
+}
+.technical {
+  font-size: 0.875rem;
+  line-height: 1.9;
+  color: var(--color-gray-500, #6b7280);
+}
+:global(.dark) .technical {
+  color: var(--color-gray-400, #9ca3af);
+}
+.description a,
+.description a:hover {
+  color: #2563eb;
+  text-decoration: none;
+}
+:global(.dark) .description a,
+:global(.dark) .description a:hover {
+  color: #93c5fd;
 }
 .description a[href^="https://github.com/"]::before {
   content: "";
