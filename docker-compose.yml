@@ -1,0 +1,16 @@
+services:
+  photo-blog:
+    build:
+      context: .
+      secrets:
+        - app_env
+    ports:
+      - "127.0.0.1:3000:3000"
+    env_file:
+      - path: .env
+        format: raw
+    restart: unless-stopped
+
+secrets:
+  app_env:
+    file: .env
