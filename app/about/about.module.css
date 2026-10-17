@@ -15,3 +15,14 @@
   text-decoration: underline;
   text-underline-offset: 0.2em;
 }
+.description a[href^="https://github.com/"]::before {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-inline-end: 0.3em;
+  vertical-align: -0.125em;
+  background-color: currentColor;
+  -webkit-mask: url("/icons/github.svg") center / contain no-repeat;
+  mask: url("/icons/github.svg") center / contain no-repeat;
+}
