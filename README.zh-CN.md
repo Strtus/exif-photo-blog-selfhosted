@@ -28,7 +28,7 @@ Windows PowerShell 可用 `Copy-Item .env.example .env` 复制配置。填写数
 
 Docker 部署运行 `docker compose build` 和 `docker compose up -d`，需要 Compose 2.30+。数据库须能从构建环境和容器访问；应用仅绑定宿主机回环地址，外部访问通过 HTTPS 反向代理。
 
-详见 [部署文档](docs/deployment.md)、[版本差异](docs/server-variant.md) 和 [贡献说明](CONTRIBUTING.md)。
+详见 [部署文档](docs/deployment.md)、[版本差异](docs/server-variant.md)。
 
 ## 发布状态
 

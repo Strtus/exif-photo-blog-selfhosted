@@ -41,12 +41,11 @@ Requires Docker with BuildKit and Compose 2.30 or later. Configure a database re
 
 ```sh
 pnpm typecheck
-pnpm test:ci
 pnpm lint
 pnpm build
 ```
 
-A production build requires the configured services. Unit tests use mocks and do not establish compatibility with every storage provider. See [CONTRIBUTING.md](CONTRIBUTING.md).
+A production build requires the configured services.
 
 ## Attribution and release status
 
