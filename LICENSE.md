@@ -42,8 +42,8 @@ Conditions:
    permission from the original author.
 4. This software is provided "as is", without warranty of any kind.
 
-This is a custom permission notice based on the author's written grant. It is
-not an OSI-approved open-source license. The original application code remains
-the copyright of its author. Font files retain their bundled SIL Open Font
-License in `public/fonts/OFL.txt`. Dependencies retain their respective
-licenses.
+This is a custom permission notice based on the author's written grant. It does
+not grant rights beyond that grant. It is not an OSI-approved open-source
+license. The original application code remains the copyright of its author.
+Font files retain their bundled SIL Open Font License in
+`public/fonts/OFL.txt`. Dependencies retain their respective licenses.
