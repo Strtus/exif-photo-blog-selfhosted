@@ -15,15 +15,18 @@ use, subject to the attribution terms recorded in:
 
 https://github.com/sambecker/exif-photo-blog/issues/398
 
+Sam Becker's reply, 2026-08-26:
+
 > You are welcome to fork this repo as a derivative project, with the goal of
 > enabling others to self-host in "the network environment in mainland China,"
 > with the attribution you proposed:
 >
-> I would retain clear attribution to exif-photo-blog, link prominently to the
-> original repository, and make it explicit that the fork is an unofficial,
-> community-maintained adaptation focused on self-hosting in mainland China.
->
-> — Sam Becker, 2026-08-26
+> > I would retain clear attribution to exif-photo-blog, link prominently to the
+> > original repository, and make it explicit that the fork is an unofficial,
+> > community-maintained adaptation focused on self-hosting in mainland China.
+
+The inner quote is the attribution text proposed in the original request and
+accepted in the reply above.
 
 Permission is granted to publish this repository as a public derivative
 project and to distribute the modified source for non-commercial self-hosting,
