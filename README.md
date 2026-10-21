@@ -1,8 +1,10 @@
 # EXIF Photo Blog
 
-A self-hosted photography gallery built with Next.js, React, PostgreSQL and object storage. This repository contains the server variant of [Sam Becker's EXIF Photo Blog](https://github.com/sambecker/exif-photo-blog).
+An unofficial, community-maintained self-hosted variant of [Sam Becker's EXIF Photo Blog](https://github.com/sambecker/exif-photo-blog), focused on self-hosting in mainland China. Built with Next.js, React, PostgreSQL and object storage.
 
-[中文说明](README.zh-CN.md) · [Deployment](docs/deployment.md) · [Variant history](docs/server-variant.md) · [License status](NOTICE.md)
+[中文说明](README.zh-CN.md) · [Deployment](docs/deployment.md) · [Variant history](docs/server-variant.md) · [Permission and license](LICENSE.md)
+
+![EXIF Photo Blog](docs/assets/social-preview.png)
 
 ## Features
 
@@ -11,6 +13,7 @@ A self-hosted photography gallery built with Next.js, React, PostgreSQL and obje
 - Admin authentication with bcrypt password hashes and per-process login throttling.
 - S3-compatible endpoints, public storage domains and optional direct image loading.
 - Batch title/location editing and photo visibility controls.
+- RSS/JSON feeds, OG image generation, Cmd-K search, AI-assisted descriptions and film/recipe metadata.
 - Editable About page with preserved line breaks and Chinese font fallbacks.
 
 ## Run locally
@@ -47,6 +50,10 @@ pnpm build
 
 A production build requires the configured services.
 
-## Attribution and release status
+## Attribution and permission
 
-Original project by [Sam Becker](https://github.com/sambecker); this variant is maintained by [Strtus](https://github.com/Strtus). This repository starts with a self-hosted snapshot; earlier upstream commits are not included in its Git history. No application-code license was found in the imported tree: see [NOTICE.md](NOTICE.md). Font licensing is retained in `public/fonts/OFL.txt`.
+Original project by [Sam Becker](https://github.com/sambecker); this variant is maintained by [Strtus](https://github.com/Strtus). This is an unofficial, community-maintained adaptation focused on self-hosting in mainland China, and is not affiliated with the original project.
+
+On 2026-08-26, Sam Becker granted permission to publish this repository as a derivative project for non-commercial self-hosted use, with attribution. The grant is recorded in [issue #398](https://github.com/sambecker/exif-photo-blog/issues/398). See [LICENSE.md](LICENSE.md) for the permission terms and [NOTICE.md](NOTICE.md) for details. This is a custom permission notice, not an OSI-approved open-source license.
+
+This repository starts with a self-hosted snapshot; earlier upstream commits are not included in its Git history. Font licensing is retained in `public/fonts/OFL.txt`.

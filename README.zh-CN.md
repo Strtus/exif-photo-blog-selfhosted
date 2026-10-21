@@ -1,6 +1,8 @@
 # EXIF Photo Blog
 
-基于 Next.js、React、PostgreSQL 和对象存储的自托管摄影博客。本仓库整理了服务器运行版本，原项目来自 [Sam Becker / exif-photo-blog](https://github.com/sambecker/exif-photo-blog)。
+[Sam Becker / exif-photo-blog](https://github.com/sambecker/exif-photo-blog) 的非官方、社区维护自托管版本，主要面向中国大陆网络环境。基于 Next.js、React、PostgreSQL 和对象存储。
+
+![EXIF Photo Blog](docs/assets/social-preview.png)
 
 ## 功能
 
@@ -9,6 +11,7 @@
 - 管理员密码哈希验证、进程内登录限流。
 - S3 兼容存储、自定义访问域名、图片直连。
 - 批量编辑标题和拍摄位置、照片可见性控制。
+- RSS/JSON feed、OG 图生成、Cmd-K 搜索、AI 辅助描述、胶片与预设信息。
 - About 介绍保留回车与空行，提供中文字体回退。
 
 ## 启动
@@ -30,6 +33,10 @@ Docker 部署运行 `docker compose build` 和 `docker compose up -d`，需要 C
 
 详见 [部署文档](docs/deployment.md)、[版本差异](docs/server-variant.md)。
 
-## 发布状态
+## 授权与发布状态
 
-保留原项目来源与作者说明，Git 历史从当前自托管版本的初始快照开始，不包含此前的上游提交。本次整理未包含生产环境变量、数据库、私人照片及服务器专用配置。仓库与导入源码未附带应用代码许可证，正式开源前仍需明确授权；参见 [NOTICE.md](NOTICE.md)。字体许可证位于 `public/fonts/OFL.txt`。
+原项目作者为 [Sam Becker](https://github.com/sambecker)，本分支由 [Strtus](https://github.com/Strtus) 维护。本项目是非官方、社区维护的自托管版本，主要面向中国大陆网络环境，与原项目没有隶属关系。
+
+2026-08-26，Sam Becker 同意将本仓库作为非商业自托管衍生项目公开发布，并要求保留署名。授权记录见 [issue #398](https://github.com/sambecker/exif-photo-blog/issues/398)。完整条款见 [LICENSE.md](LICENSE.md)，补充说明见 [NOTICE.md](NOTICE.md)。这是自定义授权声明，不是 OSI 认证的开源许可证。
+
+Git 历史从当前自托管版本的初始快照开始，不包含此前的上游提交。本次整理未包含生产环境变量、数据库、私人照片及服务器专用配置。字体许可证位于 `public/fonts/OFL.txt`。
