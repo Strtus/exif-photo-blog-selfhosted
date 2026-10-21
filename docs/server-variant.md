@@ -6,4 +6,4 @@ Included changes cover bcrypt admin authentication, login throttling and callbac
 
 Packaging adds environment examples, generic Docker Compose configuration, deployment documentation. Production environment files, database contents, photo objects, host-specific deployment scripts and server paths are excluded.
 
-The snapshot uses Next.js 16.2.12 and React 19.2.6. Refer to the lockfile for exact dependencies. Some newer upstream options, including AI Gateway configuration, are not part of this snapshot. Validate future upstream merges explicitly instead of assuming feature parity.
+The snapshot uses Next.js 16.4.2 and React 19.3.1. Refer to the lockfile for exact dependencies. Runtime dependencies were upgraded in October 2026 to address known advisories. Some newer upstream options, including AI Gateway configuration, are not part of this snapshot. Validate future upstream merges explicitly instead of assuming feature parity.
