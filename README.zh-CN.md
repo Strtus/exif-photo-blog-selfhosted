@@ -2,8 +2,6 @@
 
 [Sam Becker / exif-photo-blog](https://github.com/sambecker/exif-photo-blog) 的非官方、社区维护自托管版本，主要面向中国大陆网络环境。基于 Next.js、React、PostgreSQL 和对象存储。
 
-![EXIF Photo Blog](docs/assets/social-preview.png)
-
 ## 功能
 
 - 上传照片并提取 EXIF，支持标签、相册、相机和镜头分类。

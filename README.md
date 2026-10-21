@@ -4,8 +4,6 @@ An unofficial, community-maintained self-hosted variant of [Sam Becker's EXIF Ph
 
 [中文说明](README.zh-CN.md) · [Deployment](docs/deployment.md) · [Variant history](docs/server-variant.md) · [Permission and license](LICENSE.md)
 
-![EXIF Photo Blog](docs/assets/social-preview.png)
-
 ## Features
 
 - Photo uploads, EXIF extraction, tags, albums and camera/lens browsing.
