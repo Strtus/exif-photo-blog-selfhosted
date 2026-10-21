@@ -27,6 +27,7 @@ export default function AdminUploadsClient({
 
   useEffect(() => {
     // Overwrite local state when server state changes
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- sync with refreshed server list
     setUrlAddStatuses(urls);
   }, [urls]);
 
