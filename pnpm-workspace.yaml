@@ -2,3 +2,12 @@ packages: []
 allowBuilds:
   sharp: true
   unrs-resolver: true
+overrides:
+  '@ai-sdk/provider-utils': ^4.0.33
+  '@babel/core': ^7.29.6
+  baseline-browser-mapping: ^2.11.30
+  browserslist: ^4.28.7
+  fflate: ^0.8.3
+  jsondiffpatch: ^0.7.6
+  protocol-buffers-schema: ^3.6.1
+  undici: ^6.28.1
