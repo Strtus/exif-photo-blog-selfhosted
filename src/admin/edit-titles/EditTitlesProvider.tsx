@@ -151,6 +151,7 @@ export default function EditTitlesProvider({
   useEffect(() => {
     if (!isEditingTitles) {
 
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- reset local edits when navigation exits edit mode
       setPhotoEdits({});
       setIsPerformingUpdate(false);
     }

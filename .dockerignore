@@ -9,6 +9,8 @@ readme
 docs
 *.md
 .env*
+compose.override.*
+docker-compose.override.*
 coverage
 *.log
 *.pem

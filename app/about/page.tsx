@@ -22,14 +22,25 @@ export default async function AboutPage() {
   const title = about?.title || ABOUT_TITLE;
   const subhead = about?.subhead || ABOUT_SUBHEAD;
   const description = about?.description || ABOUT_DESCRIPTION_DEFAULT;
+  const [introduction, ...details] = description?.trim().split(
+    /\r?\n\s*\r?\n|(?:<br\s*\/?>\s*){2,}/i,
+  ) ?? [];
 
   const descriptionHtml = description
-    ? <div
-      className={styles.description}
-      dangerouslySetInnerHTML={{
-        __html: safelyParseFormattedHtml(description),
-      }}
-    />
+    ? <div className={styles.description}>
+      <div dangerouslySetInnerHTML={{
+        __html: safelyParseFormattedHtml(introduction),
+      }} />
+      {details.length > 0 && <>
+        <hr className={styles.divider} />
+        <div
+          className={styles.technical}
+          dangerouslySetInnerHTML={{
+            __html: safelyParseFormattedHtml(details.join('\n\n')),
+          }}
+        />
+      </>}
+    </div>
     : undefined;
 
   return (

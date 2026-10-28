@@ -252,6 +252,7 @@ export default function CommandKClient({
   const shouldCloseAfterWaiting = useRef(false);
   useEffect(() => {
     if (!isWaiting) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- clear pending key when transition settles
       setKeyWaiting(undefined);
       if (shouldCloseAfterWaiting.current) {
         setIsOpen?.(false);
@@ -313,6 +314,7 @@ export default function CommandKClient({
 
   useEffect(() => {
     if (!isOpen) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- reset search state when menu closes
       setQuery('');
       reset();
     }

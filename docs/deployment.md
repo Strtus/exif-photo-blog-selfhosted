@@ -6,7 +6,7 @@ Copy `.env.example` to `.env` and supply your own values. Never commit environme
 
 Docker uses `.env` as a BuildKit secret during compilation and as the runtime environment file. Compose uses `format: raw` to preserve dollar signs in bcrypt hashes. Keep runtime values unquoted and unescaped. Next.js expands dollar signs when reading dotenv locally. The password helper prints an escaped form for `.env.local`; use that only for local development. Do not reuse the escaped file as the Compose runtime env file. Authentication at runtime uses the raw environment supplied by Compose.
 
-The Dockerfile removes `.env` files from standalone output. Database credentials are not supplied as build arguments. Use a dedicated build/staging database when possible: rendering may initialize tables and execute supported migrations.
+The Dockerfile removes `.env` files from standalone output. Database credentials are not supplied as build arguments. In this snapshot, `next build` embeds `NEXT_PUBLIC_*` values but database queries run at runtime; a live database is not required during the build. If you add build-time rendering that queries the database, point it at a staging database.
 
 ## Database
 
