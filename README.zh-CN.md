@@ -2,9 +2,9 @@
 
 [Sam Becker / exif-photo-blog](https://github.com/sambecker/exif-photo-blog) 的非官方、社区维护自托管版本，主要面向中国大陆网络环境。基于 Next.js、React、PostgreSQL 和 S3 兼容对象存储。
 
-**许可：自定义非商业授权，不是 OSI 认证的开源许可证。** 详见 [LICENSE.md](LICENSE.md)。
+**许可：** Strtus 拥有版权的新增与修改内容采用 [PolyForm Noncommercial 1.0.0](LICENSE.md)；上游代码沿用[原作者的授权](UPSTREAM_PERMISSION.md)。适用范围见 [NOTICE.md](NOTICE.md)。
 
-[English](README.md) · [部署文档](docs/deployment.md) · [版本差异](docs/server-variant.md) · [授权说明](LICENSE.md)
+[English](README.md) · [部署文档](docs/deployment.md) · [版本差异](docs/server-variant.md) · [许可与署名](NOTICE.md)
 
 > 中文版与英文版结构一致；部署、运维和国内网络环境相关说明以中文版为准。
 
@@ -108,7 +108,7 @@ pnpm build
 
 ## 贡献与安全
 
-欢迎开 issue 和范围明确的 PR。请附上复现步骤，不要粘贴凭据、私人照片或服务器信息。本项目为非商业授权，商业使用需要取得原作者许可。
+欢迎开 issue 和范围明确的 PR。请附上复现步骤，不要粘贴凭据、私人照片或服务器信息。贡献内容应明确作者归属，并保留适用的第三方声明。许可范围见 [NOTICE.md](NOTICE.md)。
 
 安全问题见 [SECURITY.md](SECURITY.md)。生产环境请使用 HTTPS、独立数据库、最小权限的存储凭据，并让反向代理覆盖 `X-Real-IP`。
 
@@ -116,6 +116,8 @@ pnpm build
 
 原项目作者为 [Sam Becker](https://github.com/sambecker)，本分支由 [Strtus](https://github.com/Strtus) 维护。本项目是非官方、社区维护的自托管版本，主要面向中国大陆网络环境，与原项目没有隶属关系。
 
-2026-08-26，Sam Becker 同意将本仓库作为非商业自托管衍生项目公开发布，并要求保留署名。授权记录见 [issue #398](https://github.com/sambecker/exif-photo-blog/issues/398)。完整条款见 [LICENSE.md](LICENSE.md)，补充说明见 [NOTICE.md](NOTICE.md)。这是自定义授权声明，不是 OSI 认证的开源许可证。
+Strtus 拥有版权的新增与修改内容采用未经改写的 [PolyForm Noncommercial License 1.0.0](LICENSE.md)，SPDX 标识为 `PolyForm-Noncommercial-1.0.0`。
+
+上游代码继续适用 Sam Becker 在 [issue #398](https://github.com/sambecker/exif-photo-blog/issues/398) 中给出的书面授权，记录见 [UPSTREAM_PERMISSION.md](UPSTREAM_PERMISSION.md)。PolyForm 许可仅覆盖 Strtus 拥有版权的贡献，不改变上游应用的许可。使用和分发组合后的应用时，需同时满足两部分适用的条款。详见 [NOTICE.md](NOTICE.md)。
 
 Git 历史从当前自托管版本的初始快照开始，不包含此前的上游提交。字体许可证位于 `public/fonts/OFL.txt`。

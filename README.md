@@ -2,9 +2,9 @@
 
 An unofficial, community-maintained self-hosted variant of [Sam Becker's EXIF Photo Blog](https://github.com/sambecker/exif-photo-blog), focused on self-hosting in mainland China. Built with Next.js, React, PostgreSQL and S3-compatible object storage.
 
-**License:** custom non-commercial permission, not an OSI open-source license. See [LICENSE.md](LICENSE.md).
+**Licensing:** Strtus-owned additions and modifications use [PolyForm Noncommercial 1.0.0](LICENSE.md). Upstream code retains its [author's permission](UPSTREAM_PERMISSION.md). See [NOTICE.md](NOTICE.md) for scope.
 
-[中文说明](README.zh-CN.md) · [Deployment](docs/deployment.md) · [Variant history](docs/server-variant.md) · [Permission and license](LICENSE.md)
+[中文说明](README.zh-CN.md) · [Deployment](docs/deployment.md) · [Variant history](docs/server-variant.md) · [Licensing and attribution](NOTICE.md)
 
 ## Why this fork
 
@@ -105,7 +105,7 @@ The build needs the `NEXT_PUBLIC_*` build-time variables; it does not require a 
 
 ## Contributing
 
-Issues and focused pull requests are welcome. Include reproduction steps and avoid posting credentials, private images or server details. This project is non-commercial; commercial use requires permission from the original author.
+Issues and focused pull requests are welcome. Include reproduction steps and avoid posting credentials, private images or server details. Contributions should identify their authorship and retain any applicable third-party notices. See [NOTICE.md](NOTICE.md) for the licensing scope.
 
 ## Security
 
@@ -115,6 +115,8 @@ See [SECURITY.md](SECURITY.md). Use HTTPS, a dedicated database, scoped storage 
 
 Original project by [Sam Becker](https://github.com/sambecker); this variant is maintained by [Strtus](https://github.com/Strtus). This is an unofficial, community-maintained adaptation focused on self-hosting in mainland China, and is not affiliated with the original project.
 
-On 2026-08-26, Sam Becker granted permission to publish this repository as a derivative project for non-commercial self-hosted use, with attribution. The grant is recorded in [issue #398](https://github.com/sambecker/exif-photo-blog/issues/398). See [LICENSE.md](LICENSE.md) and [NOTICE.md](NOTICE.md). This is a custom permission notice, not an OSI-approved open-source license.
+Strtus-owned additions and modifications use the unmodified [PolyForm Noncommercial License 1.0.0](LICENSE.md), with SPDX identifier `PolyForm-Noncommercial-1.0.0`.
+
+Upstream code remains subject to Sam Becker's written permission in [issue #398](https://github.com/sambecker/exif-photo-blog/issues/398), recorded in [UPSTREAM_PERMISSION.md](UPSTREAM_PERMISSION.md). The PolyForm license covers only Strtus-owned contributions; it does not relicense the upstream application. Use and distribution of the combined application must satisfy both sets of applicable terms. See [NOTICE.md](NOTICE.md).
 
 Git history starts with the self-hosted snapshot; earlier upstream commits are not included. Font licensing is retained in `public/fonts/OFL.txt`.

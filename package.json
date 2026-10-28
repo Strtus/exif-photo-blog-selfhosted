@@ -2,7 +2,7 @@
   "name": "exif-photo-blog",
   "version": "0.1.0",
   "description": "Unofficial self-hosted variant of sambecker/exif-photo-blog with Docker, PostgreSQL, and S3-compatible storage.",
-  "license": "SEE LICENSE IN LICENSE.md",
+  "license": "SEE LICENSE IN NOTICE.md",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Strtus/exif-photo-blog-selfhosted.git"

@@ -1,19 +1,45 @@
-# Attribution and permission status
+# Licensing and attribution
 
-This project is an unofficial, community-maintained adaptation of [sambecker/exif-photo-blog](https://github.com/sambecker/exif-photo-blog), originally created by Sam Becker. It is focused on self-hosting in mainland China and is not affiliated with the original project.
+This repository contains upstream application code and Strtus-owned additions
+and modifications. The applicable terms depend on who owns each part.
 
-The original repository does not include a LICENSE file, and its author does not currently plan to add one. On 2026-08-26, Sam Becker granted permission to publish this repository as a derivative project for non-commercial self-hosted use, with the attribution below. The grant is recorded in [issue #398](https://github.com/sambecker/exif-photo-blog/issues/398).
+## Strtus-owned contributions
 
-Permission summary:
+Additions and modifications owned by Strtus are licensed under the unmodified
+[PolyForm Noncommercial License 1.0.0](LICENSE.md)
+(SPDX: `PolyForm-Noncommercial-1.0.0`).
 
-- Publish this repository as a public derivative project.
-- Distribute the modified source for non-commercial self-hosting.
-- Retain clear attribution to exif-photo-blog and link prominently to the original repository.
-- Make explicit that this is an unofficial, community-maintained adaptation focused on self-hosting in mainland China.
-- Commercial use requires separate permission from the original author.
+In a file containing both upstream code and Strtus-owned changes, this license
+covers only those changes. It does not relicense the upstream material.
+PolyForm Noncommercial is a source-available license, not an OSI-approved
+open-source license.
 
-See [LICENSE.md](LICENSE.md) for the full permission notice. This is a custom permission notice, not an OSI-approved open-source license. The original application code remains the copyright of its author.
+Required Notice: Copyright (c) 2026 Strtus (self-hosted additions and modifications).
 
-Git history begins with the current self-hosted snapshot and does not include earlier upstream commits; this history reset does not change the origin or authorship of the upstream code.
+Required Notice: This project is an unofficial, community-maintained adaptation of Sam Becker's EXIF Photo Blog (https://github.com/sambecker/exif-photo-blog), focused on self-hosting in mainland China. It is not affiliated with the original project.
 
-IBM Plex Mono font files retain their bundled SIL Open Font License in `public/fonts/OFL.txt`. Dependencies retain their respective licenses. A font license does not license the application code.
+## Upstream application
+
+Copyright (c) Sam Becker and contributors.
+
+The upstream application remains subject to the author's written permission
+recorded in [UPSTREAM_PERMISSION.md](UPSTREAM_PERMISSION.md) and
+[issue #398](https://github.com/sambecker/exif-photo-blog/issues/398).
+It is not offered under PolyForm Noncommercial by Strtus.
+
+Use or distribution of the combined application must satisfy the applicable
+terms for both the upstream material and the Strtus-owned contributions.
+The standard license does not expand the upstream permission or grant rights
+held by other contributors.
+
+## Fonts and dependencies
+
+IBM Plex Mono font files retain the
+[SIL Open Font License](public/fonts/OFL.txt).
+Dependencies and other third-party materials retain their respective licenses.
+
+## Repository history
+
+Git history begins with the self-hosted snapshot and does not include earlier
+upstream commits. This history reset does not change the origin or authorship
+of the upstream code.
